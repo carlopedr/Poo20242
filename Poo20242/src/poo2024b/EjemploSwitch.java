@@ -37,7 +37,7 @@ public class EjemploSwitch {
                 break;
             case 3:
                 System.out.println("Opción área círculo");
-                area=Math.PI
+                //area=Math.PI
                 break;
             case 4:
                 System.out.println("Opción área trapecio");
