@@ -19,6 +19,9 @@ public class Prueba {
         coche1.matricularCoche("ABC123");
         System.out.println("Matricula actualizada: "+coche1.matricula);
 
+        Coche c2 = new Coche("AUDI","Blanco","DFG567",1800);
+        System.out.println("Marca: "+c2.marca);
+
 
         
     }

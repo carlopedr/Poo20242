@@ -17,6 +17,9 @@ public class Prueba {
         miCoche.cambiarColor("Red");
         System.out.println("Color Actualizado: "+miCoche.color);
 
+        Coche c2=new Coche("MB","Plata","ASD456",2000);
+        
+
     }
 
 }
