@@ -21,6 +21,7 @@ public class Prueba {
 
         Coche c2 = new Coche("AUDI","Blanco","DFG567",1800);
         System.out.println("Marca: "+c2.marca);
+        c2.matricularCoche("SDF567");
 
 
         

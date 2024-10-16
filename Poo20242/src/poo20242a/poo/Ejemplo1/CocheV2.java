@@ -85,8 +85,7 @@ public class CocheV2 {
     }
 
     public void anadirKm(int km) {
-        // this.km=this.km+km;
-        // this.km+=km;
+        
         if (km > 0) {
             this.km += km;
         } else {
@@ -98,8 +97,15 @@ public class CocheV2 {
     public String toString() {
         return "CocheV2 [marca=" + marca + ", color=" + color + ", km=" + km + ", precio=" + precio
                 + ", factorContaminacion=" + factorContaminacion + ", anio=" + anio + ", matricula=" + matricula
-                + ", impuestoMatriculacion=" + impuestoMatriculacion + ", dniTitular=" + dniTitular + "]";
+                + ", impuestoMatriculacion=" + impuestoMatriculacion + ", dniTitular=" + dniTitular + ", getMarca()="
+                + getMarca() + ", getColor()=" + getColor() + ", getKm()=" + getKm() + ", getPrecio()=" + getPrecio()
+                + ", getFactorContaminacion()=" + getFactorContaminacion() + ", getAnio()=" + getAnio()
+                + ", getMatricula()=" + getMatricula() + ", getImpuestoMatriculacion()=" + getImpuestoMatriculacion()
+                + ", getDniTitular()=" + getDniTitular() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+                + ", toString()=" + super.toString() + "]";
     }
+
+   
     
 
 }
