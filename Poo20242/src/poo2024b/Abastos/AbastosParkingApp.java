@@ -122,6 +122,7 @@ public class AbastosParkingApp {
 
             }
         }
+        sc.close();
 
 
 

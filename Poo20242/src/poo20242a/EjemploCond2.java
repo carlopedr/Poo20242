@@ -3,7 +3,7 @@ Insuficiente: cuando es menor que 3
 Suficiente: cuando es de 3 a 4
 Bien: cuando es mayor que 4
 ....*/
-package poo20242a;
+
 
 import java.util.Scanner;
 
@@ -25,5 +25,7 @@ public class EjemploCond2 {
             System.out.println("Nota Bien");
         else
             System.out.println("Nota excede valor máximo");
+        in.close();
     }
+
 }

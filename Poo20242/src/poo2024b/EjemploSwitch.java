@@ -1,4 +1,4 @@
-package poo2024b;
+
 
 import java.util.Scanner;
 
@@ -49,6 +49,7 @@ public class EjemploSwitch {
             default:
                 System.out.println("Opción equivocada!");
         }
+        sc.close();
         
     }
     

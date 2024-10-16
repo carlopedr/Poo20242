@@ -1,4 +1,4 @@
-package poo2024b;
+
 
 import java.util.Scanner;
 
@@ -11,8 +11,8 @@ public class Arreglos1 {
         vector1[0]=10;
         vector1[4]=12;
         //vector1[5]=25;
-        int vector2 []=new int[6];
-        int vector3 []={34,21,56,78,99,12};
+        //int vector2 []=new int[6];
+        //int vector3 []={34,21,56,78,99,12};
 
         //Capturar los datos de 10 notas del curso
         System.out.print("Cuantos alumnos son ?: ");
@@ -29,7 +29,7 @@ public class Arreglos1 {
             
         }
 
-        
+        sc.close();
 
 
     }

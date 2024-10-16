@@ -57,6 +57,7 @@ public class ParkingAbastosApp {
         
 
     }
+    sc.close();
 
 }
 }

@@ -1,5 +1,5 @@
 
-package poo20242a;
+
 
 import java.util.Scanner;
 
@@ -48,7 +48,7 @@ public class EjemploSw1 {
                 System.out.println("Opción equivocada");
         }
         System.out.println("Finaliza el switch...");    
-        
+        in.close();
     }
     
 }

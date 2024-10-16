@@ -1,4 +1,4 @@
-package poo20242a;
+
 
 public class EjemploFor {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package poo2024b.Coches;
+package Coches;
 
 public class CocheE {
     //Atributos

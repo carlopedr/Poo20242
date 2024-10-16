@@ -1,4 +1,6 @@
 package Abastos;
+
+//package Abastos;
 import java.util.Scanner;
 
 public class AbastosParkingApp {
@@ -122,6 +124,7 @@ public class AbastosParkingApp {
 
             }
         }
+    sc.close();
 
 
 

@@ -5,7 +5,7 @@ Insuficiente: si la nota es mayor que cero y menor que 3
 Suficiente: la nota esta entre 3 y 4
 Superior: si nota es mayor que 4
  */
-package poo2024b;
+
 
 import java.util.Scanner;
 
@@ -28,6 +28,7 @@ public class EjemploIf2 {
         else {
             System.out.println("Error nota mayor a 5");
         }
+        sc.close();
 
     }
 

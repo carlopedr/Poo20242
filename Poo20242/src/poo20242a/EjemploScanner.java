@@ -1,5 +1,5 @@
 
-package poo20242a;
+
 
 import java.util.Scanner;
 
@@ -13,10 +13,11 @@ public class EjemploScanner {
         System.out.print("Dime tu edad: ");
         int edad=input.nextInt();
         System.out.println("Tienes "+edad+" años!!");
-        float peso=0, talla=0;
+        //float peso=0, talla=0;
         System.out.print("Ingrese su peso: ");
-        peso=input.nextFloat();
+        float peso=input.nextFloat();
         System.out.print("Tu peso es :" + peso);
+        input.close();
         
     }
 }

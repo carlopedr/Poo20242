@@ -1,8 +1,9 @@
-package poo2024b;
+
 
 import java.util.Scanner;
 
 public class ScannerEjemplo {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Hola, como te llamas: ");
@@ -15,6 +16,6 @@ public class ScannerEjemplo {
         System.out.print("Disculpame, cuanto pesas exactamente ?");
         float peso = input.nextFloat();
         System.out.println("Con tu peso de "+peso+" kilos, estas en forma!!!");
-        int talla=0;
+        //int talla=0;
     }
 }

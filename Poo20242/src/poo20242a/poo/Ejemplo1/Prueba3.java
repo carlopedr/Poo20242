@@ -1,4 +1,4 @@
-package poo20242a.poo.Ejemplo1;
+package poo.Ejemplo1;
 
 public class Prueba3 {
 public static void main(String[] args) {

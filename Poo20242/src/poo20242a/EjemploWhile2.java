@@ -1,4 +1,4 @@
-package poo20242a;
+
 
 import java.util.Scanner;
 
@@ -16,5 +16,6 @@ public class EjemploWhile2 {
             System.out.print("Escriba la opción deseada: ");
             opcion = in.nextInt();
         }
+        in.close();    
     }
 }

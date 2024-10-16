@@ -1,5 +1,5 @@
 
-package poo2024b;
+
 
 
 public class Operadores {
