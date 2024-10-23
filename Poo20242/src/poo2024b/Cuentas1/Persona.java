@@ -1,4 +1,4 @@
-package Cuentas;
+package Cuentas1;
 
 public class Persona {
     private String nombre;

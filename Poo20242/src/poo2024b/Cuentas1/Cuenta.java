@@ -1,4 +1,6 @@
-package Cuentas;
+package Cuentas1;
+
+import Cuentas.Persona;
 
 public class Cuenta {
     private long numeroCuenta;
